@@ -12,9 +12,9 @@ function distanceFromHqInFeet(start){
 }
 function distanceTravelledInFeet(start, destination){
     if (start > destination){
-        var distance = start - destination;
+        let distance = start - destination;
     }else{
-        var distance= destination - start;
+        let distance= destination - start;
     }
     return (parseInt(distance, 10) * 264)
 }
